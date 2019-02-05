@@ -1,13 +1,24 @@
-.header {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-color: grey;
-    text-transform: uppercase;
+body{
+    margin: 0;
+}
+.menu {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
-    padding-bottom: 6px;
+}
+
+.header {
+    background-color: rgb(52, 57, 61);
+    width: 100%;
+}
+
+.navigation {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 19px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
 }
 
 body {
@@ -15,104 +26,301 @@ body {
     margin: 0;
 }
 
-.navigation-features {
+.burger-features {
+    font-size: 14px;
+    color: #ffff;
     display: flex;
-    margin-left: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.navigation-text {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 2vw;
-    font-weight: 500;
-}
-
-.menu-itams {
-    display: flex;
-    align-items: center;
-    /*justify-content: center;*/
-}
-
-.menu-items-list {
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: space-around;
-}
-
-.menu-item:nth-child(0){
-    margin-left: 0vw;
-}
-
-
-
-.menu-itam {
-    display: flex;
-    list-style-type: none;
-    margin-left: 2vw;
-    font-family: 'Montserrat', sans-serif;
-    color: #ececec;
-    font-size: 1.5vw;
-    font-weight: 400;
-}
-
-.logo {
-    display: flex;
-    margin-right: 20px;
+    padding: 10px 15px;
 }
 
 .burger {
     display: flex;
-    padding: 10px;
-    background-color: darkolivegreen;
-    position: relative;
     align-items: center;
     justify-content: center;
-
+    background-color: rgb(26, 32, 37);
 }
 
-@media (max-width: 640px) {
-    .menu-itams{
-        display: none;
-    }
+.pizza-love {
+    background-image: url(../img/pizzaIsLove.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+}    
 
-    .logo {
-        display: none;
-    }
-   .navigation-features{
-        display: flex;
-    }
-    .burger{
-        display: flex;
-    }
 
-    .header {
-       padding-top: 0px;
-        padding-bottom: 0px;
-   
-    }
+
+.site-text {
+    font-family: 'Lato', sans-serif;
+    color:  #a6d6e0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 11px;
 }
 
-@media (min-width: 641px) {
-    .navigation-features{
-        display: none;
-    }
-    .burger{
-        display: none;
-    }
+.slogan-items-two {
+    display: flex;
+    margin-left: 20px;
+}
+
+.pizza-love-slogans {
+    margin-bottom: 91px;
+}
+
+.slogan-items {
+    margin-left: 20px;
+    margin-top: 19px;
+    display: flex;
+}
+
+.text-slogan {
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.slogan-text {
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 16px
+}
+
+.slogan-text-feat {
+    margin-top: 5px;
+}
+
+.features-items {
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+}
+
+.pizza-delivery {
+    background-image: url(../img/PizzaDeliveryFonCopy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 78%;
+}
+
+.arrov {
+    width: 22%;
+    background-color: rgb(173, 217, 175);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
-   .menu-itams{
-        display: flex;
-    }
-    .logo {
-        display: flex;
-        margin-right: 20px;
-    }
-    .header {
-        padding-top: 6px;
-        padding-bottom: 8px;
-    }
+}
+
+.delivery-text {
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 28px;
+}
+
+.arrov-prop {
+    display: flex;
+    color:  #ffffff;
+    font-size: 20px; 
+
+    
+}
+
+.features {
+    margin-top: 2px;
+}
+
+.salads-delivery {
+    background-image: url(../img/UA_UX_Salads_fon_copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 78%;
+}
+
+.desserts-delivery {
+    background-image: url(../img/Desserts_fon_copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 78%;
+}
+
+.neque-ero {
+    width: 100%;
+    margin-top: 26px;
+}
+
+.neque-ero-slogan {
+    font-family: 'Lato', sans-serif;
+    color:  #3f4043;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+
+.neque-ero-text {
+    font-family: 'Lato', sans-serif;
+    color:  #cbcdce;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-top: 4px;
+}
+
+.tincidunt-at-Mauris-text {
+    width: 100%;
+    background-color: rgb(61, 62, 65);
+    color: #acd9ad;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 7%;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.tincidunt-at-Mauris {
+    width: 100%;
+    padding-top: 12px;
+}
+
+.snow-flake {
+    color: #acd9ad;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    
+    
+}
+
+.id-hendrerit-text {
+    font-family: 'Lato', sans-serif;
+    color:  #3f4043;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.id-hendrerit-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.dish-name {
+    font-family: 'Lato', sans-serif;
+    color: #3f4043;
+    font-weight: 400;
+    display: inline-flex;
+}
+
+.price-value {
+    font-family: 'Lato', sans-serif;
+    color: #3f4043;
+    font-weight: 700;
+    display: inline-flex;
+    margin-top: 2px;
+}
+
+.dish-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 14px;
+}
+
+.dish-description {
+    font-family: 'Lato', sans-serif;
+    color:  #3f4043;
+    font-size: 9px;
+    font-weight: 400;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8px;
+    
+}
+
+.vestibulum-augue-et {
+    width: 100%;
+    padding-top: 12px;
+}
+
+.vestibulum-augue-text {
+    width: 100%;
+    background-color: rgb(173, 217, 175);
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 7%;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(173, 217, 175);
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    color:  #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+
+.footer-text {
+    margin: auto 15%;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.imge-logo {
+    display: none;
+}
+
+.image-logo-features {
+    display: flex;
+}
+
+.menu-buttons {
+    display: none;
+}
+
+.menu-buttons-text {
+    font-family: 'Montserrat', sans-serif;
+    color:  #ececec;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+.menu-buttons-items {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
