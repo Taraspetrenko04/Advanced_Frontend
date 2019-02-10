@@ -18,6 +18,8 @@ body{
     padding-left: 19px;
     padding-top: 12px;
     padding-bottom: 12px;
+    max-height: 40px;
+    box-sizing: border-box;
     
 }
 
@@ -29,7 +31,7 @@ body {
 .burger-features {
     font-size: 14px;
     color: #ffff;
-    display: flex;
+    display: none;
     padding: 10px 15px;
 }
 
@@ -38,6 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(26, 32, 37);
+    cursor: pointer;
 }
 
 .pizza-love {
@@ -171,7 +174,7 @@ body {
     color:  #cbcdce;
     font-size: 10px;
     font-weight: 400;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 4px;
 }
 
@@ -186,6 +189,7 @@ body {
     padding-left: 7%;
     padding-top: 12px;
     padding-bottom: 11px;
+    box-sizing: border-box;
 }
 
 .tincidunt-at-Mauris {
@@ -274,10 +278,10 @@ body {
     padding-left: 7%;
     padding-top: 12px;
     padding-bottom: 11px;
+    box-sizing: border-box;
 }
 
 .footer {
-    margin: 0 auto;
     width: 100%;
     background-color: rgb(173, 217, 175);
     color: #ffff;
@@ -292,9 +296,11 @@ body {
 
 
 .footer-text {
-    margin: auto 15%;
-    padding-top: 10px;
-    padding-bottom: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 10%;
+    box-sizing: border-box;
 }
 
 .imge-logo {
@@ -306,21 +312,72 @@ body {
 }
 
 .menu-buttons {
+    background-color: #ffff;
+    position: absolute;
+    right: 0px;
+    top: 36px;
+    width: 55%;
+}
+
+
+
+.menu-buttons-text {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    border-bottom:1px solid #f5f5f5;
+    box-sizing: border-box;
+   /* margin: 12px 96px 12px 12px;*/
+}
+.menu-buttons-text:hover{
+    background-color: grey;
+    color: #ffff;
+}
+
+
+.menu-buttons-items {
+  
+}
+
+.logo-two {
     display: none;
 }
 
-.menu-buttons-text {
-    font-family: 'Montserrat', sans-serif;
-    color:  #ececec;
-    font-size: 15px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-left: 32px;
+.logo-two-features {
+    display: flex;
 }
 
-.menu-buttons-items {
-    margin: 0;
+.footer-image {
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.image-footer-prop {
+    display: none;
+}
+
+.cross-features {
+    font-size: 14px;
+    color: #ffff;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px 16px;
+    box-sizing: border-box;
+}
+.d-none{
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.expression-footer-980 {
+    display: none;
 }

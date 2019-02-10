@@ -10,32 +10,37 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media_style.css">
-    <script src="js/script.js"></script>
+    
 </head>
 
 <body>
+
     <header class="header">
         <div class="menu">
             <div class="navigation">Navigation</div>
-            <div class="burger">
-                <span class="burger-features">
+            <div id="burger" class="burger">
+                <span id="burger-features" class="burger-features active">
                     <i class="fas fa-bars"></i>
+                </span>
+                <span id = "cross-features" class="cross-features d-none">
+                    <i class="fas fa-times"></i>
                 </span>
             </div>
 
-            <div class="menu-buttons">
+            <div id="menu-buttons" class="menu-buttons d-none">
                 <ul class="menu-buttons-items">
                     <li class="menu-buttons-text">Pizza Delivery</li>
                     <li class="menu-buttons-text">UA/UX Salads</li>
                     <li class="menu-buttons-text">Desserts</li>
                     <li class="menu-buttons-text">About us</li>
-                    <li class="menu-buttons-text">Contact us</li>
+                    <li class="menu-buttons-text">Contact</li>
                 </ul>
             </div>
 
-            <div class="imge-logo"><img class="image-logo-features" src="./img/navigation-logo%20copy.png" alt="#"></div>
+            <div class="imge-logo"><img class="image-logo-features" src="./img/navigation-logo_copy.png" alt="#"></div>
         </div>
     </header>
+
     <section class="pizza-love">
         <div class="pizza-love-slogans">
             <div class="slogan-items">
@@ -47,6 +52,7 @@
             </div>
         </div>
     </section>
+    
     <section class="features">
         <div class="features-items">
             <div class="pizza-delivery">
@@ -68,10 +74,15 @@
         </div>
 
     </section>
+    
     <section class="neque-ero">
-        <div class="neque-ero-slogan">neque ero ullamcorper sed</div>
-        <div class="neque-ero-text">Ultrices cursus sit amet placerat tortor</div>
+        <div class="neque-ero-items">
+            <div class="neque-ero-slogan">neque ero ullamcorper sed</div>
+            <div class="neque-ero-text">Ultrices cursus sit amet placerat tortor</div>
+        </div>
+        <div class="logo-two"><img class="logo-two-features" src="/img/Menu_logo_copy.jpg" alt="#"></div>
     </section>
+
     <section class="tincidunt-at-Mauris">
         <div class="tincidunt-at-Mauris-text">tincidunt at Mauris</div>
 
@@ -175,13 +186,16 @@
     </section>
 
     <footer class="footer">
-        <div class="footer-text">Best pizza from 2018 year.
-            New UA/UX salads - not boring, only fun.</div>
+        <div class="image-footer-prop"><img class="footer-image" src="./img/navigation-logo_copy.png" alt="#"></div>
+        <div class="footer-text">
+        <p class="expression-footer">Best pizza from 2018 year.</p>
+        <p class="expression-footer">New UA/UX salads - not boring, only fun.</p>
+        <p class="expression-footer-980" >Best pizza from 2018 year. New UA/UX salads - not boring, only fun.</p>
+        </div>
         <div></div>
     </footer>
 
-
-
+<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,144 +1,410 @@
-@media only screen and (min-width : 0px) and (max-width : 639px){
-    
-}
+@media only screen and (min-width : 320px) and (max-width : 639px) {}
 
-@media (min-width: 640px) and (max-width: 979px){
-    .navigation{
+@media (min-width: 640px) and (max-width: 979px) {
+    .navigation {
         font-size: 24px;
         padding-left: 38px;
         padding-top: 25px;
         padding-bottom: 26px;
-        
+
     }
-    .burger-features{
+
+    .burger-features {
         padding: 20px 30px;
-        font-size: 28px
+        font-size: 28px;
     }
-    .slogan-text{
+    .cross-features{
+        padding: 20px 32.5px;
+        font-size: 28px;
+    }
+    .menu-buttons {
+        top: 68px;
+        width: 45%;
+    }
+    .menu-buttons-text {
+        font-size: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 10%;
+    }
+    .slogan-text {
         font-size: 36px;
-        
+
     }
-    .site-text{
+
+    .site-text {
         font-size: 24px;
     }
-    .slogan-items{
+
+    .slogan-items {
         margin-left: 38px;
         margin-top: 40px;
     }
-    .pizza-love-slogans{
-      margin-bottom: 205px;  
+
+    .pizza-love-slogans {
+        margin-bottom: 205px;
     }
+
     /*__________________*/
-    .delivery-text{
+    .delivery-text {
         font-size: 36px;
         margin-top: 59px;
         margin-bottom: 58px;
     }
-    .arrov-prop{
+
+    .arrov-prop {
         font-size: 36px;
     }
+
     /*__________________*/
-    .neque-ero-slogan{
+    .neque-ero-slogan {
         font-size: 38px;
-        
     }
-    .neque-ero-text{
+
+    .neque-ero-text {
         font-size: 20px;
     }
-    .tincidunt-at-Mauris-text{
+
+    .tincidunt-at-Mauris-text {
         font-size: 40px;
     }
-    .vestibulum-augue-text{
+
+    .vestibulum-augue-text {
         font-size: 40px;
     }
-    .id-hendrerit-text{
+
+    .id-hendrerit-text {
         font-size: 30px;
     }
+
     .snow-flake {
         font-size: 32px;
     }
-    .dish-price{
+
+    .dish-price {
         font-size: 1em;
     }
-   
-    .dish-description{
+
+    .dish-description {
         font-size: 17px;
     }
-    .footer{
+
+    .footer {
         font-size: 18px;
+        width: 100%;
+
     }
-    .footer-text{
+
+    .footer-text {
         padding-top: 28px;
         padding-bottom: 23px;
-    } 
+    }
 }
 
 /*___----_____980-1199---___----___*/
-@media (min-width: 980px) and (max-width: 1199px){
-   .imge-logo {
-    display: block;
-    align-items: flex-end;
-    margin-right: 30px;
-    margin-top: 8px;
-    margin-bottom: 6px;
+@media (min-width: 980px) and (max-width: 1199px) {
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(52, 57, 61);
+        width: 100%;
+        align-items: center;
+        
     }
-    .navigation{
+    .menu-buttons {
+        display: flex;
+        position: static;
+        background-color: rgb(52, 57, 61);
+        
+        
+    }
+    .menu-buttons-items {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-buttons-text {
+        font-family: 'Montserrat', sans-serif;
+        color: #ececec;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 25px;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    
+    }
+    .menu-buttons-text:hover{
+        color: aqua;
+        background-color: inherit;
+}
+    .imge-logo {
+        display: flex;
+        margin-right: 30px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+
+    .navigation {
         display: none;
     }
-    .burger{
+
+    .burger {
         display: none;
+        cursor: pointer;
     }
-    .menu-buttons{
-        display: flex;  
-    }
-    .slogan-text{
+
+    .slogan-text {
         font-size: 54px;
     }
-    .slogan-items{
+
+    .slogan-items {
         margin-left: 30px;
         margin-top: 64px;
     }
-    .site-text{
+
+    .site-text {
         font-size: 34px;
         margin-top: 57px;
     }
-     .pizza-love-slogans{
-      margin-bottom: 260px;  
+
+    .pizza-love-slogans {
+        margin-bottom: 260px;
     }
+
     .features {
         display: flex;
         width: 100%
     }
-    .arrov{
+
+    .arrov {
         display: none;
     }
+
     .pizza-delivery {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%
     }
-    .salads-delivery{
+
+    .salads-delivery {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .desserts-delivery{
+
+    .desserts-delivery {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .delivery-text{
+
+    .delivery-text {
         font-size: 38px;
         margin-top: 142px;
         margin-bottom: 148px;
     }
 
+    .neque-ero-slogan {
+        font-size: 34px;
+    }
+
+    .neque-ero-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .logo-two {
+        margin-right: 3%;
+        display: flex;
+
+    }
+
+    .neque-ero-items {
+        display: flex;
+        flex-direction: column;
+        width: 70%
+    }
+
+    .neque-ero {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .tincidunt-at-Mauris {
+        float: left;
+        width: 50%;
+        margin-bottom: 84px;
+    }
+
+    .vestibulum-augue-et {
+        float: right;
+        width: 50%;
+        margin-bottom: 84px;
+    }
+
+    .vestibulum-augue-text {
+        width: auto;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .footer-text {
+        display : flex;
+        margin-right: 30px;
+        font-size: 18px;
+    }
+
+    .image-footer-prop {
+        display: flex;
+    }
+    .expression-footer-980 {
+    display: inline-block;
+    }
+    .expression-footer{
+        display: none;
+    }
 }
 
+
+
 /*___----_____1200++++---___----___*/
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
+    
+    .header{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(52, 57, 61);
+        width: 100%;
+        align-items: center;
+        
+    }
+    .menu-buttons {
+        display: flex;
+        position: static;
+        background-color: rgb(52, 57, 61);
+        
+        
+    }
+    .menu-buttons-items {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-buttons-text {
+        font-family: 'Montserrat', sans-serif;
+        color: #ececec;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 25px;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    
+    }
+    .menu-buttons-text:hover{
+        color: aqua;
+        background-color: inherit;
+}
+    .imge-logo {
+        display: flex;
+        margin-right: 30px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .burger {
+        display: none;
+        cursor: pointer;
+    }
+
+    .slogan-text {
+        font-size: 54px;
+    }
+
+    .slogan-items {
+        margin-left: 30px;
+        margin-top: 64px;
+    }
+
+    .site-text {
+        font-size: 34px;
+        margin-top: 57px;
+    }
+
+    /*______________________*/
+    .pizza-love{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .pizza-love-slogans {
+        margin-bottom: 260px;
+    }
+
+    .features {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .arrov {
+        display: none;
+    }
+
+    .pizza-delivery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%
+    }
+
+    .salads-delivery {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desserts-delivery {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .delivery-text {
+        font-size: 38px;
+        margin-top: 142px;
+        margin-bottom: 148px;
+    }
+
+
     
 }
